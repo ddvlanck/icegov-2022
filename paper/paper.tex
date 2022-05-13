@@ -65,50 +65,50 @@
 %% Of note is the shared affiliation of the first two authors, and the
 %% "authornote" and "authornotemark" commands
 %% used to denote shared contribution to the research.
-\author{Dwight Van Lancker}
+%\author{Dwight Van Lancker}
 %\authornote{Both authors contributed equally to this research.}
-\email{dwight.vanlancker@ugent.be}
-\affiliation{%
-  \institution{IDLab, Dep. of Electronics and Information Systems, Ghent University - imec}
-  \country{Belgium}
-}
+%\email{dwight.vanlancker@ugent.be}
+%\affiliation{%
+%  \institution{IDLab, Dep. of Electronics and Information Systems, Ghent %University - imec}
+%  \country{Belgium}
+%}
 %\orcid{1234-5678-9012}
-\author{Niels Van Durme}
-\email{niels.vandurme@ugent.be}
-\author{Eveline Vlassenroot}
-\email{eveline.vlassenroot@ugent.be}
-\affiliation{%
-  \institution{MICT, Dep. of Communication Sciences, Ghent University - imec}
-  \country{Belgium}
-}
+%\author{Niels Van Durme}
+%\email{niels.vandurme@ugent.be}
+%\author{Eveline Vlassenroot}
+%\email{eveline.vlassenroot@ugent.be}
+%\affiliation{%
+%  \institution{MICT, Dep. of Communication Sciences, Ghent University - imec}
+%  \country{Belgium}
+%}
 
-\author{Raf Buyle}
-\email{raf.buyle@ugent.be}
-\affiliation{%
-  \institution{IDLab, Dep. of Electronics and Information Systems, Ghent University - imec}
-  \country{Belgium}
-}
+%\author{Raf Buyle}
+%\email{raf.buyle@ugent.be}
+%\affiliation{%
+%  \institution{IDLab, Dep. of Electronics and Information Systems, Ghent University - imec}
+%  \country{Belgium}
+%}
   
-\author{Peter Mechant}
-\email{peter.mechant@ugent.be}
-\affiliation{%
-  \institution{MICT, Dep. of Communication Sciences, Ghent University - imec}
-  \country{Belgium}
-}
-
-\author{Pieter Colpaert}
-\email{pieter.colpaert@ugent.be}
-\affiliation{%
-  \institution{IDLab, Dep. of Electronics and Information Systems, Ghent University - imec}
-  \country{Belgium}
-}
-  
-\author{Erik Mannens}
-\email{erik.mannens@ugent.be}
-\affiliation{%
-  \institution{IDLab, Dep. of Electronics and Information Systems, Ghent University - imec}
-  \country{Belgium}
-}
+%\author{Peter Mechant}
+%\email{peter.mechant@ugent.be}
+%\affiliation{%
+%  \institution{MICT, Dep. of Communication Sciences, Ghent University - imec}
+%  \country{Belgium}
+%}
+%
+%\author{Pieter Colpaert}
+%\email{pieter.colpaert@ugent.be}
+%\affiliation{%
+%  \institution{IDLab, Dep. of Electronics and Information Systems, Ghent University - imec}
+%  \country{Belgium}
+%}
+%  
+%\author{Erik Mannens}
+%\email{erik.mannens@ugent.be}
+%\affiliation{%
+%  \institution{IDLab, Dep. of Electronics and Information Systems, Ghent University - imec}
+%  \country{Belgium}
+%}
 
 
 %%
@@ -124,15 +124,16 @@
 %% article.
 \begin{abstract}
 Documents issued by the government such as public tenders or policy documents often lack consistent semantics, which leads to ambiguities and misinterpretations. 
-Take for example granting subsidies to companies. The conditions for entitlement to a subsidy are checked against the government's authentic data sources. 
-However, the various governments and administrations have different definitions of, for instance, a small and medium-sized enterprise (SME), which can be derived from a European legal framework or a financial perspective.
-The absence of uniform definitions for these terms, results in a lot of duplicate efforts for both the government and the entrepreneur.
-To tackle the problem of semantics, Flanders has an interoperability program, Open Standards for Linked Organizations (OSLO) whose primary goal is to ensure that systems exchanging data can use a common vocabulary. 
+Take for example granting subsidies to companies. 
+The conditions for entitlement to a subsidy are checked against the government’s authentic data sources. 
+However, the various governments and administrations have different definitions of, for instance, a small and medium-sized enterprise (SME), which can be derived from a European legal framework or a financial perspective. 
+The absence of uniform definitions for these terms results in a lot of duplicate efforts for both the government and the entrepreneur. 
+To tackle the problem of semantics, Flanders founded an interoperability program, Open Standards for Linked Organizations (OSLO) whose primary goal is to ensure that systems exchanging data can use a common vocabulary. 
 However, despite the results made by OSLO, they do not reach policy-makers working mainly on the legal and organizational levels. 
-To close this gap and make semantic agreements available at these levels, we developed two tools. 
-With OSLO Lookup, we provide a simple user interface which lets users query the semantics assets, while the OSLO365 plugin allows embedding the semantic assets in a Microsoft Word document. 
+We developed two tools to close this gap and make semantic agreements available at these levels. 
+With OSLO Lookup, we provide a simple user interface that lets users query the semantics assets, while the OSLO365 plugin allows embedding the semantic assets in a Microsoft Word document. 
 To assess the relevance and usability of these tools, servants of a local administration were interviewed. 
-This paper outlines that semantic agreements that are mainly used on data level, can provide added value at an organizational and legal level as well.
+This paper outlines that semantic agreements that are mainly used on the data level can provide added value at an organizational and legal level as well.
 \end{abstract}
 
 %% TODO
@@ -166,14 +167,14 @@ The ultimate goal of the VRD initiative is for the Flemish government to shift t
 
 As data has become a key pillar in the European digital economy, Europe has come up with a strategy to unlock the full potential of data, which should lead to the rise of European data spaces.
 Europe defines a data space as a ``decentralized infrastructure for trustworthy data sharing and exchange in data ecosystems based on commonly agreed principles''.
-In their strategy, they released the first set of guidelines, collectively called the \emph{Data Governance Act}, which aim to facilitate data sharing across member states and between different sectors \cite{designDataSpaces, dataGovernanceAct}.
+In their strategy, they released a first set of guidelines, collectively called the \emph{Data Governance Act}, which aim to facilitate data sharing across member states and between different sectors \cite{designDataSpaces, dataGovernanceAct}.
 An essential aspect of this architecture is \emph{interoperability} because this will be necessary for an efficient and sustainable exchange of data.
 Figure \ref{architectureDataSpace} shows the building blocks that are part of a European Data Space, with a \emph{Vocabulary Provider} building block in the top-right corner, whose task it is to provide data standards, so that data can flow between the various components in the data space.
 
 \begin{figure}[h]
   \centering
   \includegraphics[width=\linewidth]{images/data-space}
-  \caption{Overview of the architecture of an European Data Space\protect\footnotemark}
+  \caption{Overview of the architecture of a European Data Space\protect\footnotemark}
   \label{architectureDataSpace}
 \end{figure}
 
@@ -216,7 +217,7 @@ The third principle is about information coupled to the HTTP URIs.
 When a user enters an HTTP URI in their browser, they should get useful information in return. 
 That information should be described by using a standardized format, called the Resource Description Framework (RDF). 
 RDF is a directed graph that contains statements. 
-These RDF statements consist of three parts, a subject, a predicate, and an object, and are therefore also called a triple. 
+These RDF statements consist of three parts, a subject, a predicate, and an object, and are therefore also called \textit{triples}. 
 For example: ``John knows Jane'', where John is the subject, ``knows'' the predicate, and Jane the object. 
 Each part in the triple is represented by a URI, whereas the object can also be a literal value (e.g. string, integer, …). 
 The last design principle is about linking to other data by including HTTP URIs to other entities in your data, allowing users to discover more information on the Web.
@@ -264,19 +265,19 @@ In order to make the semantic agreements available to target groups at the organ
 The code of OSLO Lookup is publicly available on GitHub~\footnote{\url{https://github.com/informatievlaanderen/OSLO-Lookup}}.
 
 Although this is an excellent first step toward semantic agreements being used at the organizational and legal levels, constantly using the OSLO Lookup functionality to check if a word exists in OSLO can be pretty cumbersome.
-Therefore, we looked for a way in which we could make the semantic agreements available within the work environment. This was achieved by developing an add-in for Microsoft Word, called \textit{OSLO365}.
+Therefore, we looked for a way in which we could make the semantic agreements available within the work environment. This was achieved by developing an add-in for Microsoft Word, called \textit{OSLO365}, enabling users to embed semantics in their Word documents.
 
 \begin{figure}[h]
   \centering
   \includegraphics[width=\linewidth]{images/oslo-lookup}
-  \caption{Overview of the UI of OSLO Lookup}
+  \caption{With OSLO Lookup, users can enter multiple keywords to check if they are defined in OSLO.}
   \label{osloLookup}
 \end{figure}
 
 \subsection{OSLO Lookup integrated in OSLO365}
 
 The Office Word add-in has multiple functions to assist the user in adding semantics to their document. 
-Firstly, we integrated the OSLO lookup functionality in the add-in, allowing users to enter a keyword in a search field and relevant results will be shown to the user, as shown on figure \ref{oslo-add-in-1}. 
+Firstly, we integrated the OSLO Lookup functionality in the add-in, allowing users to enter a keyword in a search field and relevant results will be shown to the user, as shown on figure \ref{oslo-add-in-1}. 
 To make it even more user-friendly, users can also select a word in the document and the add-in will automatically look up the selected word. 
 To actually add semantics to their documents, users can add the definition of a word along with their URI as a foot or endnote to the document, as shown in figure \ref{oslo-add-in-2}.
 By embedding the URI and its definition in the document, other readers or contributors do not have to deal with ambiguities anymore.
@@ -304,7 +305,7 @@ The user can individually decide for each word what definition to insert into th
 The last functionality of this add-in is a dictionary. 
 As a user, you want to easily find a commonly used definition. 
 Therefore, users can add definitions to their dictionary making it immediately available if they click on the dictionary. Figure \ref{oslo-dictionary-2} shows that users can access their dictionary to check which definitions are saved, insert them as a foot or endnote or remove them if necessary.
-On top of this, if a user searches a word or lets the add-in scan the document, definitions added to the users his dictionary will be marked in yellow and shown as the first result, as shown in figure \ref{oslo-dictionary-1}. The code of the OSLO365 plugin is publicly available on GitHub~\footnote{\url{https://github.com/informatievlaanderen/OSLO365-plugin}}.
+On top of this, if a user searches a word or lets the add-in scan the document, definitions added to the user's dictionary will be marked in yellow and shown as the first result, as shown in figure \ref{oslo-dictionary-1}. The code of the OSLO365 plugin is publicly available on GitHub~\footnote{\url{https://github.com/informatievlaanderen/OSLO365-plugin}}.
 
 \begin{figure}
 \centering
@@ -324,17 +325,17 @@ On top of this, if a user searches a word or lets the add-in scan the document, 
 
 \section{Relevance and usability assessment}
 
-To assess the relevance and usability of the developed OSLO365 plug-in, we took an explorative ethnographic research approach. 
+To assess the relevance and usability of the developed OSLO365 add-in, we took an explorative ethnographic research approach. 
 This approach involved interviewing multiple local servants at an administration of a local mid-sized municipality in Flanders. 
-Using a semi-structured interview guide, we talked to six public servants from different departments with distinct roles and responsibilities, asking them to perform their daily tasks and to define specific terms or concepts using the plug-in. 
+Using a semi-structured interview guide, we talked to six public servants from different departments with distinct roles and responsibilities, asking them to perform their daily tasks and to define specific terms or concepts using the Office add-in. 
 The ``think aloud'' protocol~\cite{jaaskelainen2010think} enabled us to identify information that is concentrated on during problem-solving as well as information used to facilitate problem resolution. 
-When asked to define a particular concept (e.g., `Gemeente' [Municipality]), most respondents interacted with the plug-in thesaurus function - expecting a full dictionary containing all OSLO vocabulary terms - rather than the therefore intended search function. 
+When asked to define a particular concept (e.g., `Gemeente' [Municipality]), most respondents interacted with the thesaurus function - expecting a full dictionary containing all OSLO vocabulary terms - rather than the therefore intended search function. 
 The thesaurus function was generally well-received, with most civil servants finding it helpful in defining frequently used terms or concepts. 
 The search functionality was also met with positive feedback, with respondents stating that it felt natural and intuitive to use.  
-The functionality `document scan' was the most criticized affordance; after scanning a document, the plug-in would only allow public servants to navigate through a list of matched terms by clicking the buttons `previous' or `next', with one public servant stating: ``I am flabbergasted that such a useful feature as the document scan is implemented in such a non-efficient way.''. 
+The functionality `document scan' was the most criticized affordance; after scanning a document, the add-in would only allow public servants to navigate through a list of matched terms by clicking the buttons `previous' or `next', with one public servant stating: ``I am flabbergasted that such a useful feature as the document scan is implemented in such a non-efficient way.''. 
 The functionality however also received praise as it was identified as a useful feature to make people aware of how ambiguous and unclear their day-to-day jargon could be for others outside of their domain.  
-In general, respondents told us that usability is key and that the plug-in should be supported in the whole administration of the municipality for them to use it individually in their daily tasks. 
-The plug-in proved to be relatively easy to use, as no respondent had any particular issues when working with it. 
+In general, respondents told us that usability is key and that the add-in should be supported in the whole administration of the municipality for them to use it individually in their daily tasks. 
+The add-in proved to be relatively easy to use, as no respondent had any particular issues when working with it. 
 
 \section{Discussion and future work}
 
@@ -344,7 +345,7 @@ This results in the fact that the efforts made by OSLO often stay at the semanti
 
 In this paper, we introduced two tools in order to smooth the flow of semantic agreements to the legal and organizational level. 
 With OSLO Lookup, we show that we can easily provide an application to  unlock the semantic agreements at the data level and make them available at other levels as well.
-With the Microsoft add-in, OSLO365, we make the semantic agreements available for Microsoft Word users, who can look up semantic agreements and incorporate them in their Word documents. 
+With the Office add-in, OSLO365, we make the semantic agreements available for Microsoft Word users, who can look up semantic agreements and incorporate them in their Word documents. 
 Doing this will decrease the number of ambiguities or misinterpretations by readers of these documents. 
 The interviews with the public servants of a local administration demonstrate that these tools allow semantic assets to be used at the organizational and legal levels, and therefore answers our research question. 
 The interviewees also mentioned that in order to move away from their known and trusted working patterns, it is essential for them to be made aware of the benefits that such a move could provide for them. 
@@ -363,7 +364,7 @@ What remains to be developed then, is the organizational aspect of implementing 
 
 \section{Acknowledgments}
 
-This work was partially supported by KNoWS, Proximus, Microsoft, and Digitaal Vlaanderen.
+This work was partially supported by KNoWS (IDLab - Ghent University), Proximus, Microsoft, and Digitaal Vlaanderen.
 
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{references}
